@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>게임 플레이어 신고하기</h1>
+        <form action="#">
+                신고 대상 : <input type="text" placeholder="이름을 입력하세요"><br>
+                 <br>
+                신고 날짜 : <input type="date"><br>
+                 <br>
+
+                <datelist>
+                    신고 사유<br>
+                    <input type="radio" name="action" value="1"> 욕설
+                    <input type="radio" name="action" value="2"> 비매너
+                    <input type="radio" name="action" value="3"> 부정행위
+                    <input type="radio" name="action" value="4"> 사기
+                    <input type="radio" name="action" value="5"> 기타<br>
+                     <br>
+                    
+                    상세 설명<br>
+                    <textarea cols="30" rows="10" placeholder="5글자 이상 입력해야 신고가 가능합니다"></textarea><br>
+                </datelist>
+                <br>
+
+            <input type="submit" value="신고하기">
+            <input type="submit" value="취소">
+        </form>
+
+
+    </body>
+</html>
